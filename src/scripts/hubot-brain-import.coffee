@@ -1,14 +1,28 @@
-###
-
-hubot-brain-import
-https://github.com/halkeye/hubot-brain-import
-
-Copyright (c) 2013 Gavin Mogan
-Licensed under the MIT license.
-
-###
+# Description:
+#   Import brain data from a json file
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   None
+#
+# Author:
+#   halkeye
 
 'use strict'
+fs = require 'fs'
 
-exports.awesome = ()->
-  'awesome'
+module.exports = (robot) ->
+  robot.brain.once 'loaded', (data) ->
+    file = process.cwd() + '/brain-import.json'
+    robot.logger.debug "Looking for #{file}"
+    fs.exists file, (exists) ->
+      if !exists
+        return
+      robot.logger.debug "Brain import file (#{file}) exists. Importing."
+      json = require file
+      robot.brain.mergeData json
