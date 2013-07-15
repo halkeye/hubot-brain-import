@@ -3,25 +3,13 @@
 Import brain data from a json file
 
 ## Getting Started
-Install the module with: `npm install hubot-brain-import`
+1. Install the module: `npm install --save hubot-brain-import`
+2. Add it `hubot-brain-import` to your external-scripts.json file in your hubot directory
+3. Profit
 
-```javascript
-var hubot_brain_import = require('hubot-brain-import');
-hubot_brain_import.awesome(); // "awesome"
-```
-
-## Documentation
-_(Coming soon)_
-
-## Examples
-_(Coming soon)_
-
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
-
-## Release History
-_(Nothing yet)_
+## Configuration (optional)
+  None
 
 ## License
-Copyright (c) 2013 Gavin Mogan  
+Copyright (c) 2013 Gavin Mogan
 Licensed under the MIT license.
