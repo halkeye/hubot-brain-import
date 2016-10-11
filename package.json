@@ -35,7 +35,7 @@
     "grunt-contrib-copy": "~0.4.1",
     "grunt-coffeelint": "~0.0.6",
     "grunt-simple-mocha": "~0.4.0",
-    "should": "~1.2.2",
+    "should": "~11.1.1",
     "grunt": "~0.4.1"
   },
   "keywords": [
