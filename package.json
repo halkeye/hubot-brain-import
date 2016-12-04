@@ -23,19 +23,19 @@
   ],
   "main": "src/scripts/hubot-brain-import",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 4"
   },
   "scripts": {
     "test": "grunt simplemocha"
   },
   "devDependencies": {
-    "grunt": "~0.4.2",
+    "grunt": "~1.0.1"
     "grunt-coffeelint": "0.0.8",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-watch": "~1.0.0",
     "grunt-simple-mocha": "~0.4.0",
     "hubot": "^2.13.2",
-    "should": "~3.1.2"
+    "should": "~11.1.1",
   },
   "keywords": [
     "hubot",
