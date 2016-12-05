@@ -1,7 +1,7 @@
 {
   "name": "hubot-brain-import",
   "description": "Import brain data from a json file",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/halkeye/hubot-brain-import",
   "author": {
     "name": "Gavin Mogan",
@@ -41,6 +41,5 @@
     "hubot",
     "hubot-scripts"
   ],
-  "dependencies": {
-  }
+  "dependencies": {}
 }
