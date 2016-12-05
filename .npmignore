@@ -6,3 +6,7 @@ grunt.coffee
 grunt.js
 
 out/
+.envrc
+src/test
+Gruntfile.coffee
+.jshintrc
