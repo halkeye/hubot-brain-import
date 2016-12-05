@@ -42,6 +42,5 @@
     "hubot-scripts"
   ],
   "dependencies": {
-    "mock-fs": "^3.0.0"
   }
 }
