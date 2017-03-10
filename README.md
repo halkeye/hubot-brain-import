@@ -13,6 +13,9 @@ Import brain data from a json file
 
 ## Release History
 
+0.1.2 - 2016-12-04
+* Minor upgrade to make sure it uses the latest versions of things
+
 0.1.1 - 2013-07-26
 * Fixed up .npmignore file so the proper files were being packaged up
 
