@@ -35,7 +35,7 @@
     "grunt-contrib-watch": "~1.0.0",
     "grunt-simple-mocha": "~0.4.0",
     "hubot": "^3.0.0",
-    "should": "~13.1.0"
+    "should": "~13.2.0"
   },
   "keywords": [
     "hubot",
