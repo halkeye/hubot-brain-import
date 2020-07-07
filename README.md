@@ -1,7 +1,5 @@
 # hubot-brain-import
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/halkeye/hubot-brain-import.svg)](https://greenkeeper.io/)
-
 Import brain data from a json file
 
 ## Getting Started

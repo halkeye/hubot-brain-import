@@ -1,8 +1,0 @@
-language: node_js
-node_js:
-  - "node"
-install:
-  - 'touch brain-import.json'
-  - 'npm install'
-before_script:
-  - 'npm install -g grunt-cli'
