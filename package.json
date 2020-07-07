@@ -41,5 +41,7 @@
     "hubot",
     "hubot-scripts"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "coffeescript": "^2.5.1"
+  }
 }
