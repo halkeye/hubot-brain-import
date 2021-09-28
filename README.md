@@ -1,3 +1,5 @@
+# Migrated to https://github.com/halkeye/hubot-plugins/tree/master/packages/hubot-brain-import
+
 # hubot-brain-import
 
 Import brain data from a json file
